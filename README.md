@@ -1,7 +1,7 @@
 # 📊 Customer Churn Analysis – Dollar Bank
 
 ## 📝 Introduction
-This is an **end-to-end customer churn analysis** project for **Dollar Bank**, combining:
+This is an **end-to-end customer churn analysis** project, combining:
 - **SQL** – Data extraction and transformation
 - **Python** – Deep-dive exploratory data analysis (EDA)
 - **Tableau** – Interactive dashboard creation
