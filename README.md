@@ -68,7 +68,3 @@ With churn rates increasing, the bank required actionable insights to guide proa
   - Support for low-income cardholders to improve credit scores.
 
 📉 **Expected Impact**: Reduce churn from 16% to below 7% — an industry-acceptable benchmark.
-
----
-
-## 📂 Project Structure
