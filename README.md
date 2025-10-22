@@ -1,70 +1,98 @@
-# 📊 Customer Churn Analysis – Dollar Bank
+# Customer Churn Analysis – Dollar Bank
 
-## 📝 Introduction
-This is an **end-to-end customer churn analysis** project, combining:
-- **SQL** – Data extraction and transformation
-- **Python** – Deep-dive exploratory data analysis (EDA)
-- **Tableau** – Interactive dashboard creation
+## Executive Summary
 
-The objective was to **identify the main drivers of churn** in the bank’s credit card services, locate **high-risk customer segments**, and **recommend targeted strategies** to improve retention.
-
-With churn rates increasing, the bank required actionable insights to guide proactive customer retention programs. This project diagnoses the churn problem and offers **data-backed recommendations**.
+This project presents an end-to-end customer churn analysis for Dollar Bank’s credit card division using SQL, Python, and Tableau. The goal was to identify key drivers of churn, highlight high-risk customer segments, and provide data-driven recommendations to improve retention.
+With churn rates climbing, the bank sought actionable insights to guide proactive retention strategies. The project delivered a comprehensive analysis pipeline, from raw data extraction to interactive visualization, to inform business decisions.
 
 ---
 
-## 🔍 Methodology
-### **1. SQL Analysis**
+## Business Problem
+The bank faced a 16% customer churn rate, with noticeable declines in transaction frequency and spending among departing clients.
+Understanding why customers leave, which segments are most at risk, and what retention actions can be taken became crucial for improving customer lifetime value and profitability.
+
+
+---
+
+## Methodology
+
+### 1. SQL Analysis
 - Merged and queried three datasets.
+
 - Answered business questions on demographics, income categories, and churn patterns.
+
 - Segmented customers by age group, marital status, and card type.
 
-### **2. Python EDA**
-- Data cleaning: handled missing values, corrected inconsistencies.
-- Analyzed distributions, detected outliers, assessed correlations.
-- Identified significant predictors of churn.
+### 2. Python EDA
+- Cleaned data by handling missing values and correcting inconsistencies.
 
-### **3. Tableau Dashboard**
+- Analyzed distributions, detected outliers, and assessed correlations.
+
+- Identified significant predictors of churn using statistical and visual techniques.
+
+### 3. Tableau Dashboard
 - Visualized KPIs, demographics, and spending behaviors.
-- Enabled interactive filtering to drill into high-risk segments.
 
-📄 **Link**:   
+= Enabled interactive filtering to explore high-risk customer segments.
+
+**Link**:   
 - [Tableau Dashboard](https://public.tableau.com/app/profile/ayan.abbas/viz/BankCustomerChurnDashboard_17544842879370/Dashboard1)  
 
 ---
 
-## 📈 Key Insights
+## Skills  
 
-### **Overall Churn**
-- **Churn rate**: 16% (~1 in 6 customers).  
-- Churned customers’ **average transaction amount**: **$3,095** vs. **$4,404** for retained customers.  
-- Lower transaction frequency and spending strongly linked to churn.
+- **SQL:** Data extraction, transformation, and segmentation queries  
+- **Python:** Data cleaning, exploratory data analysis (EDA), and churn pattern detection  
+- **Tableau:** KPI visualization, demographic segmentation, and interactive dashboard design  
 
-### **Demographics**
-- **Average age**: 46 years; more female than male customers.
-- **Highest churn**: Females aged 41–50 (4.4% churn rate).
-- **Tenure effect**: Established customers (25–36 months) had highest churn (5% females, 3.6% males).
-- Largest churn segment: **Female blue cardholders earning < $40K** (559 customers).
-
-### **Behavior Patterns**
-- Customers with **<100 transactions** and **spending < $5K** are most likely to churn.
-- **Pareto Analysis**: 20% of customers account for ~80% of churn.
-- Key at-risk groups:
-  - Female graduates (married or single)
-  - Male graduates (single)
 
 ---
 
-## 💡 Recommendations
-- **Retention Focus**:
-  - Prioritize established and long-term customers.
-  - Pay special attention to female blue cardholders earning < $40K.
-- **Targeted Campaigns**:
-  - Financial literacy webinars and resources for graduates.
-  - Partnerships with lifestyle brands to provide member discounts.
-  - Loyalty programs with waived fees, financial planning, or investment advice.
-- **Product Incentives**:
-  - Cashback rewards, sign-up bonuses, reduced interest rates.
-- **Credit Counseling**:
-  - Support for low-income cardholders to improve credit scores.
+## Results & Business Recommendation  
 
-📉 **Expected Impact**: Reduce churn from 16% to below 7% — an industry-acceptable benchmark.
+### Key Insights  
+
+#### Overall Churn  
+- **Churn rate:** 16% (1 in 6 customers)  
+- **Average transaction amount:** $3,095 (churned) vs. $4,404 (retained)  
+- Lower spending and fewer transactions are strongly linked to churn  
+
+#### Demographics  
+- **Average customer age:** 46 years; more females than males  
+- **Highest churn:** Females aged 41–50 (4.4% churn rate)  
+- **Tenure impact:** Customers with 25–36 months tenure showed highest churn (5% females, 3.6% males)  
+- **Largest at-risk group:** Female blue cardholders earning less than $40K (559 customers)  
+
+#### Behavior Patterns  
+- Customers with **<100 transactions** and **spending < $5K** are most likely to churn  
+- **Pareto effect:** 20% of customers account for ~80% of total churn  
+- **At-risk profiles:** Female graduates (married or single) and male graduates (single)  
+
+---
+### Business Recommendations  
+
+#### Retention Focus  
+- Prioritize long tenure and established customers  
+
+#### Targeted Campaigns  
+- Launch financial literacy programs for graduates  
+- Build lifestyle partnerships offering exclusive discounts and rewards  
+
+#### Product Incentives  
+- Introduce cashback rewards, waived annual fees, and sign-up bonuses  
+
+#### Credit Counseling  
+- Provide low-income customers with guidance and resources to improve credit health  
+
+**Expected Outcome:**  
+- Reduce churn from **16% → <7%**, aligning with industry benchmarks  
+
+---
+
+### Next Steps  
+- Automate churn data refresh using **SQL → Python → Tableau** pipelines for near real-time updates  
+- Implement **predictive churn modeling** to enable proactive customer retention actions  
+- Continuously track **churn reduction KPIs** and evaluate the effectiveness of retention strategies on a quarterly basis  
+
+
